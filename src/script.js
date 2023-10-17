@@ -30,7 +30,7 @@ function getTwoByGenre(genre) {
   const randoms = getListOfUniqueRandomNumbers({
     min: 0,
     max: allGamesWithGenre.length,
-    qty: 3,
+    qty: 2,
   });
 
   const games = randoms.map((random) => {
